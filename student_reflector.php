@@ -22,7 +22,7 @@ include_once 'validate.php';
     } else {
         echo "<p>No valid submission received.</p>";
     }
-   // echo '<meta http-equiv="refresh" content="10;url=http://localhost/test/index.php">';
+   // echo '<meta http-equiv="refresh" content="10;url=http://--index.php">';
     ?>
 
 </body>

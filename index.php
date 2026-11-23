@@ -23,7 +23,6 @@ include_once 'validate.php';
     <!-- The onsubmit attribute calls the validateForm() function from validation.js to perform client-side validation before submission. -->
      <!-- The action attribute uses htmlspecialchars() to prevent XSS attacks by escaping special characters in the URL. -->
       <!-- The method attribute is set to POST to send form data securely. -->
-       <!-- the action attribute uses $_SERVER["PHP_SELF"] to submit the form to the same page, allowing for server-side validation and feedback. -->
     <form method="post"  action="student_reflector.php" onsubmit="return validateForm()">
         <p id="clientMsg" class="error"></p>
 
